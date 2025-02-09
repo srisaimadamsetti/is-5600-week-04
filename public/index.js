@@ -1,8 +1,7 @@
 const html = window.nanohtml
-
 const offset = 0
 const limit = 10
-const tag = 'texture'
+const tag = 'sky'
 listPrints({offset, limit, tag})
   .then(prints => render({prints, offset, limit, tag}))
 
